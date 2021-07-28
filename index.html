@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- displays site properly based on user's device -->
+
+	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+	<title>Frontend Mentor | Intro component with sign up form</title>
+
+	<!-- font google -->
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+	</style>
+
+	<!--Estilos-->
+
+	<link rel="stylesheet" href="./app/app.css">
+
+</head>
+
+<body>
+
+	<div class="contenedor">
+
+
+		<header class="header">
+			<h1 class="titulo">Learn to code by</h1>
+			<h1 class="titulo">watching others</h1>
+			<p class="parrafo">See how experienced developers solve problems in real-time. Watching scripted tutorials
+				is great, but understanding how developers think is invaluable. </p>
+		</header>
+		<main class="main">
+			<section class="seccion">
+				<a href="#" role="button" class="compra"><span class="bold">Try it free 7 days</span> then $20/mo.
+					thereafter</a>
+				<div class="contenedor-formulario">
+					<form class="formulario" id="formulario">
+						<div class="contenedor-input contenedor__nombre">
+							<img src="./images/icon-error.svg" alt="" class="icono-error">
+							<input type="text" placeholder="First Name" class="input" name="nombre">
+							<p class="mensaje">First Name cannot be empty</p>
+						</div>
+						<div class="contenedor-input contenedor__apellido">
+							<img src="./images/icon-error.svg" alt="" class="icono-error">
+							<input type="text" placeholder="Last Name" class="input" name="apellido">
+							<p class="mensaje">Last Name cannot be empty</p>
+						</div>
+						<div class="contenedor-input contenedor__correo">
+							<img src="./images/icon-error.svg" alt="" class="icono-error">
+							<input type="email" placeholder="Email Address" class="input" name="correo">
+							<p class="mensaje">Look like this is not an email</p>
+						</div>
+						<div class="contenedor-input contenedor__password">
+							<img src="./images/icon-error.svg" alt="" class="icono-error">
+							<input type="password" placeholder="Password" class="input" name="password">
+							<p class="mensaje">Password cannot be empty</p>
+						</div>
+						<input type="submit" value="Claim your free trial" class="input verde" id="btn-enviar">
+						<p class="terminos">By clicking the button, you are agreeing to our <span class="rojo">Terms and
+								Services</span></p>
+					</form>
+				</div>
+			</section>
+		</main>
+
+
+	</div>
+
+
+	<script src="./app/app.js"></script>
+
+
+</body>
+
+</html>
